@@ -1,6 +1,6 @@
 {
   "homepage": "http://danhnguyen1998.github.io/nmd_cv",
-  "name": "mycv",
+  "name": "nmd_cv",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
