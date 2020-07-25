@@ -1,5 +1,6 @@
 {
-  "name": "bitwage",
+  "homepage": "http://danhnguyen1998.github.io/nmd_cv",
+  "name": "nmdcv",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -8,7 +9,9 @@
     "tslint": "tslint './src/**/*.{ts,tsx}'",
     "tslint:fix": "npm run tslint -- --fix",
     "tslint:check": "tslint-config-prettier-check ./tslint.json",
-    "prettier": "prettier --write --config ./.prettierrc './src/**/*.{ts,tsx}'"
+    "prettier": "prettier --write --config ./.prettierrc './src/**/*.{ts,tsx}'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "powergate",
   "license": "ISC",
@@ -53,6 +56,7 @@
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.3.2",
     "file-loader": "^5.0.2",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.13.0",
