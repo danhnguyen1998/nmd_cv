@@ -13,10 +13,8 @@ const ProfilePage: React.FC = () => {
                   <img src="images/me.jpg" alt="Image" />
                 </a>
               </div>
-              <div className="h2 title">Nguyen Minh Danh</div>
-              <p className="category text-white">
-                React Developer
-              </p>
+              <div className="h2 title">Danh Nguyen</div>
+              <p className="category text-white">React Developer</p>
               <a
                 className="btn btn-primary smooth-scroll mr-2"
                 href="#contact"
@@ -40,33 +38,28 @@ const ProfilePage: React.FC = () => {
               <div className="button-container">
                 <a
                   className="btn btn-default btn-round btn-lg btn-icon"
-                  href="#"
+                  href="https://github.com/danhnguyen1998"
+                  rel="tooltip"
+                  title="Follow me on Github"
+                  target="_blank"
+                >
+                  <i className="fa fa-github"></i>
+                </a>
+                <a
+                  className="btn btn-default btn-round btn-lg btn-icon"
+                  href="https://www.facebook.com/dnt1998"
                   rel="tooltip"
                   title="Follow me on Facebook"
+                  target="_blank"
                 >
                   <i className="fa fa-facebook"></i>
                 </a>
                 <a
                   className="btn btn-default btn-round btn-lg btn-icon"
-                  href="#"
-                  rel="tooltip"
-                  title="Follow me on Twitter"
-                >
-                  <i className="fa fa-twitter"></i>
-                </a>
-                <a
-                  className="btn btn-default btn-round btn-lg btn-icon"
-                  href="#"
-                  rel="tooltip"
-                  title="Follow me on Google+"
-                >
-                  <i className="fa fa-google-plus"></i>
-                </a>
-                <a
-                  className="btn btn-default btn-round btn-lg btn-icon"
-                  href="#"
+                  href="https://www.instagram.com/danhng0211/"
                   rel="tooltip"
                   title="Follow me on Instagram"
+                  target="_blank"
                 >
                   <i className="fa fa-instagram"></i>
                 </a>

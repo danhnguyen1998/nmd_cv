@@ -10,9 +10,9 @@ const Menu: React.FC = () => {
         >
           <div className="container">
             <div className="navbar-translate">
-              <a className="navbar-brand" href="#" rel="tooltip">
+              {/* <a className="navbar-brand" href="#" rel="tooltip">
                 DEVELOPER
-              </a>
+              </a> */}
               <button
                 className="navbar-toggler navbar-toggler"
                 type="button"
@@ -43,13 +43,13 @@ const Menu: React.FC = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link smooth-scroll" href="#portfolio">
-                    Portfolio
+                  <a className="nav-link smooth-scroll" href="#experience">
+                    Experience
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link smooth-scroll" href="#experience">
-                    Experience
+                  <a className="nav-link smooth-scroll" href="#education">
+                    Education
                   </a>
                 </li>
                 <li className="nav-item">

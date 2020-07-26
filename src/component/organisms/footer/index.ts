@@ -1,3 +1,3 @@
-import Header from "./views";
+import Footer from "./views";
 
-export default Header;
+export default Footer;

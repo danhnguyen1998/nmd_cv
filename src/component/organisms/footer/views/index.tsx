@@ -1,69 +1,46 @@
 import * as React from "react";
 
-const Menu: React.FC = () => {
+const Footer: React.FC = () => {
   return (
-    <header>
-      <div className="profile-page sidebar-collapse">
-        <nav
-          className="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary"
-          color-on-scroll="400"
+    <footer className="footer">
+      <div className="container text-center">
+        <a
+          className="cc-github btn btn-link "
+          href="https://github.com/danhnguyen1998"
+          target="_blank"
         >
-          <div className="container">
-            <div className="navbar-translate">
-              <a className="navbar-brand" href="#" rel="tooltip">
-                Creative CV
-              </a>
-              <button
-                className="navbar-toggler navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navigation"
-                aria-controls="navigation"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-bar bar1"></span>
-                <span className="navbar-toggler-bar bar2"></span>
-                <span className="navbar-toggler-bar bar3"></span>
-              </button>
-            </div>
-            <div
-              className="collapse navbar-collapse justify-content-end"
-              id="navigation"
-            >
-              <ul className="navbar-nav">
-                <li className="nav-item">
-                  <a className="nav-link smooth-scroll" href="#about">
-                    About
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link smooth-scroll" href="#skill">
-                    Skills
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link smooth-scroll" href="#portfolio">
-                    Portfolio
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link smooth-scroll" href="#experience">
-                    Experience
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link smooth-scroll" href="#contact">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+          <i className="fa fa-github fa-2x " aria-hidden="true"></i>
+        </a>
+        <a
+          className="cc-facebook btn btn-link"
+          href="https://www.facebook.com/dnt1998"
+          target="_blank"
+        >
+          <i className="fa fa-facebook fa-2x " aria-hidden="true"></i>
+        </a>
+        <a
+          className="cc-instagram btn btn-link"
+          href="https://www.instagram.com/danhng0211/"
+          target="_blank"
+        >
+          <i className="fa fa-instagram fa-2x " aria-hidden="true"></i>
+        </a>
       </div>
-    </header>
+      <div className="h4 title text-center">Danh Nguyen</div>
+      <div className="text-center text-muted">
+        <p>
+          &copy; Danh Nguyen CV. All rights reserved.<br></br>Design -{" "}
+          <a
+            className="credit"
+            href="https://www.facebook.com/dnt1998"
+            target="_blank"
+          >
+            Danh Nguyen
+          </a>
+        </p>
+      </div>
+    </footer>
   );
 };
 
-export default Menu;
+export default Footer;

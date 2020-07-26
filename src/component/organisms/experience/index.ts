@@ -1,3 +1,3 @@
-import About from "./views";
+import Experience from "./views";
 
-export default About;
+export default Experience;
